@@ -1,5 +1,5 @@
 {
-  "active": true,
+  "active": false,
   "hostname": "jelly16-1",
   "os": "Microsoft Windows Server 2022 Datacenter",
   "os_build": "10.0.20348",
@@ -41,11 +41,12 @@
   "akses": {
     "mode": "tailscale",
     "tailscale": {
-      "ip": "100.99.205.104",
       "status": "ok",
-      "hostname": "Jelly16-1",
       "note": "HP/PC harus login Tailscale pada tailnet yang sama. TCP 3389 harus diizinkan ACL.",
-      "magicdns": "jelly16-1.tail358ce7.ts.net."
+      "ip": "",
+      "magicdns": "",
+      "hostname": "",
+      "funnel_addr": ""
     }
   },
   "media": {
@@ -104,5 +105,6 @@
     "errors": [],
     "public_port": false
   },
-  "heartbeat_at": "2026-10-14T16:46:28.8414647Z"
+  "heartbeat_at": "2026-10-14T16:46:28.8414647Z",
+  "stopped_at": "2026-10-14T16:48:20Z"
 }
