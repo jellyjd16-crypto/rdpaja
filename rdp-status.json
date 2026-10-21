@@ -1,42 +1,42 @@
 {
   "active": true,
-  "hostname": "bagas-4",
+  "hostname": "bagas-5",
   "os": "Microsoft Windows Server 2025 Datacenter",
   "os_build": "10.0.26100",
   "os_style": "Native Windows",
   "hardware": {
-    "ram_gb": 16.0,
     "cpu_threads": 4,
-    "disk_free_gb": 31.7
+    "disk_free_gb": 31.7,
+    "ram_gb": 16.0
   },
   "rdp_port": 3389,
   "rdp_user": "xyadmin",
   "rdp_listen": ":::3389 (svchost) | 0.0.0.0:3389 (svchost) + handshake ok via 127.0.0.1",
   "rdp_denyts": true,
-  "started_at": "2026-10-21T08:49:24Z",
-  "expires_at": "2026-10-21T14:31:24Z",
+  "started_at": "2026-10-21T12:03:24Z",
+  "expires_at": "2026-10-21T17:45:24Z",
   "duration_menit": 342,
-  "run_id": "39572072709",
+  "run_id": "39596267345",
   "run_attempt": "1",
-  "run_number": "4",
-  "run_url": "https://github.com/jellyjd16-crypto/rdpaja/actions/runs/39572072709",
+  "run_number": "5",
+  "run_url": "https://github.com/jellyjd16-crypto/rdpaja/actions/runs/39596267345",
   "mode": "bersih+win10",
   "akses": {
     "mode": "tailscale",
     "tailscale": {
-      "ip": "100.96.142.98",
-      "hostname": "Bagas-4",
-      "magicdns": "bagas-4.tail358ce7.ts.net.",
+      "magicdns": "bagas-5.tail358ce7.ts.net.",
       "note": "HP/PC harus login Tailscale pada tailnet yang sama. TCP 3389 harus diizinkan ACL.",
-      "status": "ok"
+      "status": "ok",
+      "hostname": "Bagas-5",
+      "ip": "100.96.142.98"
     },
     "tunnel": {
-      "port": 3389,
-      "selftest": "ok",
-      "status": "ok",
       "address": "100.96.142.98:3389",
+      "outside": "tailscale",
+      "status": "ok",
       "host": "100.96.142.98",
-      "outside": "tailscale"
+      "port": 3389,
+      "selftest": "ok"
     }
   }
 }
